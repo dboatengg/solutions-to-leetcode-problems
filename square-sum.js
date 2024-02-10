@@ -18,11 +18,11 @@ function squareSum(numbers) {
 }
 
 //===================================Explanation of optimized code
-//We use the reduce method on this array.
+//We use the reduce method on parameter (which is an array).
 //Inside reduce, we provide a callback function that takes two parameters:
 //  - accumulator
 //  - currentValue.
-//Initially, the accumulator starts with an initial value of 0 (specified as the second argument of reduce).
+//The accumulator starts with an initial value of 0 (specified as the second argument of reduce).
 //For each element in the array, the callback function adds the current element to the accumulator.
 //After processing all elements, reduce returns the final value of the accumulator.
 //The accumulator is the sum of all squared numbers in the array.
