@@ -18,10 +18,10 @@ function reverseString(str) {
 }
 
 //=============================================Code Explanation
-//The approach implement in the optimized code is called method chaining
-//The 'split' method divides the string into an array of characters
-//The 'reverse' method reverses the order of items in the array
-//Lastly, the 'join' method joins array of string characters back into a single string
+//The approach implemented in the optimized code is called `method chaining`.
+//The 'split' method divides the string into an array of characters.
+//The 'reverse' method reverses the order of items in the array.
+//Lastly, the 'join' method joins array of string characters back into a single string.
 
 //=============================================Function call
 console.log(reverseString('colour'));
