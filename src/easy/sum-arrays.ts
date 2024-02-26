@@ -4,7 +4,7 @@
 //If the array does not contain any numbers then you should return 0.
 
 //=============================================my solution
-function sum(numbers) {
+function sum(numbers: number[]): number {
   'use strict';
   return numbers.length > 0 ? numbers.reduce((a, b) => a + b) : 0;
 }

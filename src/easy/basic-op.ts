@@ -4,7 +4,11 @@
 //The function should return result of numbers after applying the chosen operation.
 
 //==============================================my solution
-function basicOp(operation, value1, value2) {
+function basicOp(
+  operation: string,
+  value1: number,
+  value2: number
+): number | string {
   switch (operation) {
     case '+':
       return value1 + value2;
@@ -13,7 +17,11 @@ function basicOp(operation, value1, value2) {
     case '*':
       return value1 * value2;
     case '/':
-      return value1 / value2;
+      if (value2 !== 0) {
+        return value1 / value2;
+      } else {
+        return 'Division by zero is not allowed';
+      }
     default:
       return 'Operation is invalid';
   }

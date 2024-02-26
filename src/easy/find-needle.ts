@@ -16,10 +16,11 @@
 // }
 
 //================================================Final Solution
-function findNeedle(haystack) {
+function findNeedle(haystack: string[]): string {
   for (let i = 0; i <= haystack.length; i++) {
     if (haystack[i] === 'needle') return `found the needle at position ${i}`;
   }
+  return 'needle not found';
 }
 
 let items = ['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'];

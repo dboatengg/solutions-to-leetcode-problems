@@ -13,7 +13,7 @@
 // }
 
 //============================================= Optimized Code
-function reverseString(str) {
+function reverseString(str: string): string {
   return str.split('').reverse().join('');
 }
 

@@ -13,7 +13,7 @@
 // console.log(repeatStr(3, 'hello')); //hellohellohello
 
 //=================================================Optimized code
-function repeatStr(n, s) {
+function repeatStr(n: number, s: string): string {
   return s.repeat(n);
 }
 

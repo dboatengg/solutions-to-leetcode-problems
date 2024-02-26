@@ -6,7 +6,7 @@
 //Note: for this kata y isn't considered a vowel.
 
 //=====================================================my Solution
-function disemvowel(str) {
+function disemvowel(str: string): string {
   let vowels = ['A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u'];
   return str
     .split('')

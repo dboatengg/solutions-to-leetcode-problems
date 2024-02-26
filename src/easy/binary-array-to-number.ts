@@ -8,7 +8,7 @@
 // console.log(n.toString(10));
 
 //========================================================my solution
-const binaryArrayToNumber = (arr) => {
+const binaryArrayToNumber = (arr: number[]) => {
   const n = arr.join('');
   return parseInt(n, 2);
 };

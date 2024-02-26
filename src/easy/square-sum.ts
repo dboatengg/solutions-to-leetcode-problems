@@ -13,7 +13,7 @@
 // }
 
 //==================================Optimized code
-function squareSum(numbers) {
+function squareSum(numbers: number[]): number {
   return numbers.reduce((sum, number) => sum + number * number, 0);
 }
 

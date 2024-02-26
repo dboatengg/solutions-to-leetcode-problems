@@ -4,7 +4,7 @@
 //Examples:(Input1, Input2 --> Output (explanation)))
 
 //==========================================Solution
-function addBinary(a, b) {
+function addBinary(a: number, b: number): string {
   let sum = a + b;
   return sum.toString(2);
 }
