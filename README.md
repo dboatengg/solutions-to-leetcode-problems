@@ -1,6 +1,6 @@
 # Solutions to Leetcode and Codewars Problems
 
-These are the solutions of my JavaScript implementations for various LeetCode and Codewars problems.
+These are the solutions of my TypeScript implementations for various LeetCode and Codewars problems.
 
 ## Folder Structure
 
